@@ -1,0 +1,109 @@
+/* logos png*/
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 25%;
+}
+
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #30aa12;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+/* Estilos do conteúdo principal */
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  margin-bottom: 20px;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(25, 204, 85, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Estilos dos botões */
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+button + button {
+  margin-left: 25px;
+}
+
+
+/* Estilos do rodapé */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media queries para responsividade */
+@media (min-width: 768px) {
+  main {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  section {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    width: 90%;
+  }
+}
