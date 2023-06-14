@@ -5,6 +5,17 @@ img {
   border-radius: 25%;
 }
 
+.logo img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 /* Estilos gerais */
 body {
   font-family: Arial, sans-serif;
@@ -25,6 +36,7 @@ header {
 
 h1 {
   margin: 0;
+  font-size: 24px;
 }
 
 /* Estilos do conteúdo principal */
@@ -81,4 +93,6 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
+  margin-top: auto;
 }
+
