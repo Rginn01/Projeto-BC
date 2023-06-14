@@ -1,3 +1,10 @@
+/* logos png */
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 25%;
+}
+
 /* Estilos gerais */
 body {
   font-family: Arial, sans-serif;
@@ -18,11 +25,6 @@ header {
 
 h1 {
   margin: 0;
-}
-
-img {
-  width: 100px;
-  height: auto;
 }
 
 /* Estilos do conteúdo principal */
@@ -53,7 +55,7 @@ p {
 }
 
 /* Estilos dos botões */
-button {
+.button-custom {
   background-color: #4CAF50;
   color: #fff;
   border: none;
@@ -64,15 +66,14 @@ button {
   border-radius: 4px;
 }
 
-button:hover {
+.button-custom:hover {
   background-color: #45a049;
   transform: scale(1.05);
 }
 
-button + button {
+.button-custom + .button-custom {
   margin-left: 25px;
 }
-
 
 /* Estilos do rodapé */
 footer {
@@ -81,26 +82,3 @@ footer {
   padding: 10px;
   text-align: center;
 }
-
-/* Media queries para responsividade */
-@media (min-width: 768px) {
-  main {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  section {
-    width: 45%;
-  }
-}
-
-@media (max-width: 480px) {
-  section {
-    width: 90%;
-  }
-  
-  main {
-    flex-direction: column;
-  }
-}
-
