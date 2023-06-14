@@ -2,29 +2,40 @@
 <html>
 <head>
   <title>Curso Online</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Anderson Barbosa Engenharia da Cruz</h1>
-    <img src="images/logo.png" alt="Logo da escola">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <h1>Anderson Barbosa Engenharia da Cruz</h1>
+        <img src="images/logo.png" alt="Logo da escola">
+      </div>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>Bem-vindo à nossa escola!</h2>
-      <p>Nossa escola tem como principal objetivo aperfeiçoar, igualar e destravar o educando para o mundo, com intuito de criar oportunidades acadêmicas e profissionais, quebrar as barreiras governamentais e complementar de forma privada os estudos já ofertados pelo governo.</p>
-    </section>
+    <div class="container">
+      <section>
+        <h2>Bem-vindo à nossa escola!</h2>
+        <p>Nossa escola tem como principal objetivo aperfeiçoar, igualar e destravar o educando para o mundo, com intuito de criar oportunidades acadêmicas e profissionais, quebrar as barreiras governamentais e complementar de forma privada os estudos já ofertados pelo governo.</p>
+      </section>
 
-    <section>
-      <button onclick="location.href='login.html'">Já sou aluno</button>
-      <button onclick="window.location.href='tel:5533999877111'">Quero conhecer mais</button>
-    </section>
+      <section>
+        <button class="button-custom" onclick="location.href='login.html'">Já sou aluno</button>
+      <button class="button-custom" onclick="window.location.href='tel:5533999877111'">Quero conhecer mais</button>
+      </section>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2023 Anderson Barbosa Engenharia da Cruz. Todos os direitos reservados.</p>
+    <div class="container">
+      <p>&copy; 2023 Anderson Barbosa Engenharia da Cruz. Todos os direitos reservados.</p>
+    </div>
   </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
